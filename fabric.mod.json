@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "futebolmod",
+  "version": "${version}",
+  "name": "Futebol Mod",
+  "description": "Bola de futebol com física, rede de gol e placar.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.exemplo.futebolmod.FutebolMod"],
+    "client": ["com.exemplo.futebolmod.FutebolModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
